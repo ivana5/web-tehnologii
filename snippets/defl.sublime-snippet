@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+		<dl>
+			<dt>
+				<dd></dd>
+				<dd></dd>
+				<dd></dd>
+			</dt>
+		</dl>
+]]></content>
+	<tabTrigger>defl</tabTrigger>
+</snippet>
