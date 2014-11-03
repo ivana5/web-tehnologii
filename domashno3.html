@@ -47,16 +47,28 @@
 				display: block;
 				float: left;
 				height: 100px;
-				transition: background-color 0.6s ease;
+				transition: background-color .5s ease;
 			}
 
-			div.wrapper ul li:hover{
-				background-color: #ad8181;
+			div.wrapper ul li.home:hover{
+				background-color: #44A1F8;
+			}
+
+			div.wrapper ul li.aboutus:hover{
+				background-color: #FB993C;
+			}
+
+			div.wrapper ul li.galery:hover{
+				background-color: #888BE3;
+			}
+
+			div.wrapper ul li.contact:hover{
+				background-color: #50B39C;
 			}
 
 			div.wrapper ul li a{
 				display: block;
-				color: #ad8181;
+				color: #767e83;
 				text-decoration: none;
 				text-align: center;
 				padding-top: 40px;
@@ -65,7 +77,7 @@
 			div.wrapper ul li a:hover{
 				color: white;
 			}
-			
+
 			.section1{
 				width: 1200px;
 				margin: 140px auto;
@@ -83,7 +95,17 @@
 			}
 
 			div.cat{
-				margin: 30px auto;
+				margin: 120px 0px 50px 0px;
+				padding-top: 35px;
+				float: left;
+			}
+
+			h3{
+				color: #ad8181;
+			}
+
+			p{
+				color: #767e83;
 			}
 
 			div.ulleft ul{
@@ -94,7 +116,7 @@
 			}
 
 			div.ulleft ul li{
-				height: 40px;
+				height: 60px;
 				margin: 0px auto;
 				padding: 0px;
 			}
@@ -115,31 +137,31 @@
 
 			div.ulleft ul li a:hover{
 				display: inline;
-				background-color: #ad8181;
+				background-color: #323840;
 				color: white;
-				transition: background-color 0.6s ease;
+				transition: background-color .5s ease;
 			}
 
-			img{
+			.images img{
 				margin: 50px auto;
-				float: left;
+				float: left;	
 			}
 
 			.aboutus{
 				width: 1200px;
-				margin: 0px auto;
-				padding: 400px 0px 0px 0px;
+				margin: 200px auto;
+				padding-top: 350px
 			}
 
 			.aboutus h1{
-				color: #ad8181;
+				color: #FB993C;
 			}
 
 			div p.animation{
 				width: 100%;
 				font-size: 31px;
 				text-align: center;
-				margin: 200px auto;
+				margin: 150px 0px 200px 0px;
 			}
 
 			p.animation:hover{
@@ -149,7 +171,7 @@
 				-o-transform: scale(2);
 				-ms-transform: scale(2);
 				transform: scale(2);
-				transition: transform 0.6s ease-in-out;
+				transition: transform .5s ease-in-out;
 			}
 
 			.section3{
@@ -160,12 +182,12 @@
 			}
 				
 			#galery{
-				color: #ad8181;
+				color: #888BE3;
 			}
 
 			.galery{
 				width: 1200px;
-				margin: 100px auto;
+				margin: 150px auto;
 				padding: 0px;
 				box-sizing: border-box;
 				/*background-color: grey;*/
@@ -188,7 +210,7 @@
 			}
 			
 			#contact{
-				color: #ad8181;
+				color: #50B39C;
 			}
 
 			.section4{
@@ -208,17 +230,17 @@
 			}
 			button{
 				background-color: #cecece;
-				color: #ad8181;
+				color: #44A1F8;
 				border-style: none;
 				padding: 5px 20px;
 				font-size: 20px;
-				margin: 0px 0px 30px 0px;
+				margin: 10px 0px 30px 0px;
 			}
 
 			button:hover{
-				background-color: #ad8181;
+				background-color: #323840;
 				color: white;
-				transition: color 0.6s ease;
+				transition: color .5s ease;
 			}
 
 			div.form{
@@ -228,14 +250,14 @@
 			footer{
 				width: 100%;
 				float: left;
-				height: 70px;
-				margin:0px auto;
+				margin: 0px auto;
 			}
+			
 			.rights p{
 				text-align: center;
-				padding-top: 25px;
-				margin:0px;
-				color:black;
+				padding-top: 50px;
+				margin: 0px;
+				color: black;
 			}
 		</style>
 	</head>
@@ -243,10 +265,10 @@
 		<a href=""><div class="logo"></div></a>
 			<div class="wrapper">
 					<ul>
-						<li><a href="#">HOME</a></li>
-						<li><a href="#about us">ABOUT US</a></li>
-						<li><a href="#galery">GALERY</a></li>
-						<li><a href="#contact">CONTACT</a></li>
+						<li class="home"><a href="#">HOME</a></li>
+						<li class="aboutus"><a href="#about us">ABOUT US</a></li>
+						<li class="galery"><a href="#galery">GALERY</a></li>
+						<li class="contact"><a href="#contact">CONTACT</a></li>
 					</ul>
 
 				<div class="text">
@@ -282,7 +304,7 @@
 			</div>
 
 			<div class="aboutus">
-				<h1 id="about us">ABOUT US</h1>
+				<h1 id="about us">ABOUT US</h1><br>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta fugit cupiditate voluptates architecto nam totam ut, aperiam consequuntur aliquam voluptatem provident, exercitationem earum temporibus officia doloremque eius aliquid? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nostrum tempore, esse ipsa molestias unde consectetur obcaecati neque. Culpa nesciunt ad deleniti veritatis, nemo eius facere ullam quibusdam optio perspiciatis.</p>
@@ -290,7 +312,6 @@
 					<div class="section3"></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt alias voluptates voluptatem, dolorem laboriosam aut cum animi temporibus provident aperiam ipsam facilis impedit ipsa a esse nihil optio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non dolores assumenda velit perspiciatis nam cupiditate aliquid fugit dicta similique dolor dignissimos, tempore, rem consectetur ea iusto a voluptate, veniam enim.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-			</div>
 			<div>
 				<p class="animation">GIVE US A CALL - WE'LL TAKE CARE OF IT!</p>
 			</div>
