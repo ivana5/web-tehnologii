@@ -1,0 +1,131 @@
+body{
+	background-color: #f1f2f6;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+	
+	.wrapper{
+		width: 1058px;
+		height: 368px;
+		margin: 100px auto;
+		padding: 0;
+	}
+
+		i.fa-angle-left{
+			font-size: 120px;
+			float: left;
+			display: block;
+			margin: 120px 10px;
+			color: #cecece;
+		}
+
+		i.fa-angle-right{
+			font-size: 120px;
+			float: right;
+			display: block;
+			margin: 110px 10px;
+			color: #cecece;
+		}
+
+			i:hover{
+				color: #b4490d;
+			}
+
+		.slider{
+			display: block;
+			float: left;
+			width: 927px;
+			height: 347px;
+		}
+
+			img{
+				border: 1px solid transparent;
+				border-radius: 10px;
+			}
+
+			.headline1{
+				position: absolute; 
+				left: 0; 
+				top: 0; 
+				padding: 10px;   
+				color: #b4490d; 
+				margin-left: 520px;
+				margin-top: 225px;
+				border-style: none; 
+			}
+
+				h1{
+					font-weight: normal;
+					letter-spacing: 2px;
+					font-size: 40px;
+				}
+
+			.headline2{
+				position: absolute;
+				left: 0; 
+				top: 0; 
+				padding: 10px;   
+				color: #b4490d; 
+				margin-left: 520px;
+				margin-top: 280px;
+				border-style: none; 
+			}
+
+				h2{
+					font-weight: normal;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					opacity: .5;
+					font-weight: bold;
+					font-size: 20px;
+
+				}
+
+				button{
+					width: 140px;
+					height: 60px;
+					position: relative;
+					display: block;
+					float: right;
+					margin-top: -190px;
+					margin-right: 100px;
+					background-color: #434a54;
+					border-style: none;
+					border-radius: 7px;
+					color: white; 
+				}
+
+					 a{
+						color: white;
+						text-decoration: none;
+						text-transform: uppercase;
+						letter-spacing: 1px;
+					}
+
+					button:hover{
+						background-color: #b4490d;
+						-webkit-transform: scale(1.1, 1.1);
+  						-webkit-transition-duration: .2s;
+  						-webkit-transition-timing-function: ease-in-out;
+					}
+
+				ul.bullets{
+					position: absolute;
+					margin: 325px auto;
+					list-style: none;
+					font-size: 25px;
+					list-style: none;
+					text-decoration: none;
+					margin: 365px 420px;
+				}
+
+					input{
+						background-color: #cecece;
+					}
+
+						ul li{
+							display: inline-block;
+							float: left;
+
+						}		
