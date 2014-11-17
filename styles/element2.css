@@ -115,7 +115,6 @@ body{
 					margin: 325px auto;
 					list-style: none;
 					font-size: 25px;
-					list-style: none;
 					text-decoration: none;
 					margin: 365px 420px;
 				}
@@ -127,5 +126,4 @@ body{
 						ul li{
 							display: inline-block;
 							float: left;
-
 						}		
