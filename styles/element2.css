@@ -90,33 +90,45 @@ body{
 					float: right;
 					margin-top: -190px;
 					margin-right: 100px;
-					background-color: #434a54;
+					background-color: #b4490d;
 					border-style: none;
 					border-radius: 7px;
-					color: white; 
+					color: white;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					color: white;
+					opacity: .7;
+					font-size: 14px;
+					color: white;
 				}
 
 					 a{
-						color: white;
 						text-decoration: none;
-						text-transform: uppercase;
-						letter-spacing: 1px;
+						opacity: 1;
+						color: white;
+						font-weight: bolder;
+						
 					}
 
+						a:hover{
+							color: white;
+						}
+
 					button:hover{
-						background-color: #b4490d;
 						-webkit-transform: scale(1.1, 1.1);
-  						-webkit-transition-duration: .2s;
+  						-webkit-transition-duration: .1s;
   						-webkit-transition-timing-function: ease-in-out;
+  						opacity: 1;
+  						border: 2px solid #b4490d;
+  						background-color: transparent;
 					}
 
 				ul.bullets{
 					position: absolute;
-					margin: 325px auto;
 					list-style: none;
 					font-size: 25px;
 					text-decoration: none;
-					margin: 365px 420px;
+					margin: 355px 420px;
 				}
 
 					input{
