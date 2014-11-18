@@ -80,7 +80,9 @@ body{
 			}
 				button:hover{
 					cursor: pointer;
-					font-weight: bold;
+					background-color: transparent;
+					color: #9fd468;
+					border: 1px solid #9fd468;
 				}
 
 				.list{
