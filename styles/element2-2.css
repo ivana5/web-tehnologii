@@ -60,10 +60,10 @@ body{
 						line-height: 20px;
 						text-transform: uppercase;
 						letter-spacing: 2px;
-						color: #434a54;
+						color: white;
 						text-shadow: 1px 1px 1px #787878;
 						font-weight: bold;
-						opacity: .3;
+						opacity: .4;
 					}
 				a.button{
 					background-color: transparent;
