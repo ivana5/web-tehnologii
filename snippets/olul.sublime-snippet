@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+		<ol>
+			<li>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</li>
+		</ol>
+]]></content>
+	<tabTrigger>ulol</tabTrigger>
+</snippet>
+
