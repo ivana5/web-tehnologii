@@ -49,9 +49,9 @@ body{
 				left: 0; 
 				top: 0; 
 				padding: 10px;   
-				color: #b4490d; 
+				color: #b4490d;
+				margin-top: 220px; 
 				margin-left: 520px;
-				margin-top: 225px;
 				border-style: none; 
 			}
 
@@ -97,7 +97,7 @@ body{
 					text-transform: uppercase;
 					letter-spacing: 1px;
 					color: white;
-					opacity: .7;
+					opacity: .6;
 					font-size: 14px;
 					color: white;
 				}

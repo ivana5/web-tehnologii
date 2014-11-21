@@ -10,11 +10,12 @@
 		<style>
 			body{
 				font-family: 'Questrial', sans-serif;
+				width: 1200px;
+				margin: 0px auto;
 			}
 
 			div.logo{
 				top: 10px;
-				margin-left: 320px;
 				width: 92px;
 				height: 70px;
 				position: relative;
@@ -130,6 +131,7 @@
 			}
 
 			div.ulleft ul li a{
+				letter-spacing: 1px;
 				text-decoration: none;
 				color: #ad8181;
 			}
@@ -159,12 +161,13 @@
 			.aboutus{
 				width: 1200px;
 				margin: 200px auto;
-				padding-top: 350px
+				padding-top: 350px;
 			}
 
 			.aboutus h1{
 				color: #d8a787;
 				margin: 50px auto;
+				border-bottom: 1px solid #cecece;
 			}
 
 			div p.animation{
@@ -277,7 +280,7 @@
 			
 			.rights p{
 				text-align: center;
-				padding-top: 50px;
+				padding-top: 40px;
 				margin: 0px;
 				color: black;
 			}
@@ -292,13 +295,27 @@
 				margin-top: 15px;
 				margin-right: 15px;
 			}
+
+			div.logobottom{
+				margin-top: 40px;
+				margin-left: 550px;
+				width: 92px;
+				height: 70px;
+				background-image: url(logo.png);
+				padding: 0px;
+				box-sizing: border-box;
+			}
+
+			div.logobottom:hover{
+				background-position: bottom;
+			}
 		</style>
 	</head>
 	<body>
 		<a href=""><div class="logo"></div></a>
 			<div class="wrapper">
 					<ul>
-						<li class="home"><a href="#">HOME</a></li>
+						<li class="home"><a href="#top">HOME</a></li>
 						<li class="aboutus"><a href="#about us">ABOUT US</a></li>
 						<li class="galery"><a href="#galery">GALERY</a></li>
 						<li class="contact"><a href="#contact">CONTACT</a></li>
@@ -397,6 +414,7 @@
 					<footer>
 						<div class="rights">
 							<p>2014 All rights reserved</p>
+							<a href=""><div class="logobottom" id="top"></div></a>
 						</div>
 					</footer>	
 				</div>

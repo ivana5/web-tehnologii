@@ -15,7 +15,7 @@ body{
 		height: 132px;
 		background-color: white;
 		margin: 100px auto;
-		padding: 20px;
+		padding: 18px;
 		box-sizing: border-box;
 		border: transparent;
 		border-radius: 3px;
@@ -23,9 +23,9 @@ body{
 	}
 
 		h2{
-			font-size: 24px;
+			font-size: 25px;
 			font-style: normal;
-			margin-bottom: 3px;
+			margin-bottom: 4px;
 			color: #73767e;	
 		}
 
@@ -36,17 +36,16 @@ body{
 				ul li{
 					display: block;
 					float: left;
-					margin-right: 1px;
+					margin-right: 2px;
 					margin-bottom: 1px;
-					padding: 2px;
+					text-align: center;
 				}
 
 					li span{
 						background-color: #ccd1d7;
 						color: white;
-						border: #ccd1d7;
 						border-radius: 3px; 
-						padding: 2px 4px;
+						padding: 3px 5px;
 						box-sizing: border-box;
 						text-transform: uppercase;
 						font-size: 10px;

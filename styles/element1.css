@@ -125,7 +125,7 @@
 
 								.rememberme button:hover{
 									-webkit-transform: scale(1.1, 1.1);
-  									-webkit-transition-duration: .2s;
+  									-webkit-transition-duration: .1s;
   									-webkit-transition-timing-function: ease-in-out;
 								}
 
@@ -207,7 +207,7 @@
 
 										.wrapper .right ul li button:hover{
 											-webkit-transform: scale(1.1, 1.1);
-	  										-webkit-transition-duration: .2s;
+	  										-webkit-transition-duration: .1s;
 	  										-webkit-transition-timing-function: ease-in-out;
 	  										cursor: pointer;
 										}
