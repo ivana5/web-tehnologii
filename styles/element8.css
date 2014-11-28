@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+body{
+	background-color: #f1f2f6;
+}
+	.wrapper{
+		margin: 100px auto;
+		width: 540px;
+		height: 361px;
+		/*background-color: #ffffff;*/
+	}
+		.left{
+			display: block;
+			float: left;
+			width: 300px;
+			height: 361px;
+			background-color: #ffffff;
+			border: transparent;
+			border-radius: 5px;
+			border-bottom: 2px solid #e3e4e8;
+				
+		}
+			.image{
+				width: 300px;
+				height: 192px;
+				position: relative;
+			}
+				.img{
+					position: absolute;
+				}
+					img{
+						border-radius: transparent;
+						border-top-left-radius: 5px;
+						border-top-right-radius: 5px;
+					}
+				.icons{
+					position: absolute;
+					z-index: 3000;
+					margin: 151px 0 0 0;
+					padding: 13px 36px 0 18px;
+					height: 41px;
+					width: 300px;
+					box-sizing: border-box;
+					background-color: #000000;
+					opacity: .7;
+				}
+					.line{
+						width: 300px;
+						height: 18px;
+					}
+					span.icons-text{
+						margin-right: 41px;
+					}
+						i{
+							margin-right: 5px;
+						}
+						a{
+							color: #ffffff;
+							opacity: .5;
+						}
+							a.active{
+								color: #e86a53;
+								opacity: 1;
+							}
+							a:hover{
+								color: #e86a53;
+								opacity: 1;
+							}
+			.progress-bar{
+				width: 260px;
+				height: 10px;
+				background-color: #e6e9ee;
+				margin: 21px;
+				border-radius: 5px;
+			}
+				.color{
+					width: 81px;
+					height: 10px;
+					border-radius: 5px;
+					background-color: #e6624b;
+				}
+				.time{
+					display: block;
+					margin-top: 9px;
+				}
+					span.time-left{
+						float: left;
+						color: #b8bbc2;
+						font-size: 11px;
+					}
+					span.time-right{
+						float: right;
+						color: #b8bbc2;
+						font-size: 11px;
+					}
+			.song-title{
+				margin: 21px 21px 0 21px;
+				padding: 15px 0;
+				box-sizing: border-box;
+				/*background-color: red;*/
+			}
+				span.artist{
+					display: block;
+					font-size: 15px;
+					color: #424b54;
+					margin-bottom: 2px;
+				}
+				span.title{
+					display: block;
+					font-size: 15px;
+					color: #b2b6c1;
+				}
+			.controls{
+				width: 266px;
+				height: 40px;
+				margin: 0 21px;
+				padding: 0;
+			}
+				ul.con{
+					float: left;
+				}
+					ul.con li{
+						color: #ffffff;
+						float: left;
+						margin-right: 5px;
+					}
+						ul.con li:hover{
+							cursor: pointer;
+						}
+						li.play{
+							width: 40px;
+							height: 40px;
+							border-radius: 20px;
+							background-color: #424b54;
+							margin-top: 2px;
+						}
+							li.play i{
+								font-size: 15px;
+								padding: 12px 12px 14px 16px;
+							}
+						li.other{
+							margin: 7px 5px;
+							padding: 0 10px 0 3px;
+							box-sizing: border-box;
+							width: 31px;
+							height: 31px;
+							border-radius: 18px;
+							background-color: #424b54;
+						}
+							li.other i.fa-backward{
+								font-size: 15px;
+								margin: 8px 0 0 3px;
+							}
+							li.other i.fa-forward{
+								font-size: 15px;
+								margin: 8px 0 0 8px;
+							}
+				.volume{
+					float: right;
+					margin: 11px 0;
+					width: 103px;
+					height: 20px;
+				}
+					i.fa-volume-off{
+						float: left;
+						color: #e6eaed;
+						font-size: 18px;
+					}
+					.volume-bar{
+						float: left;
+						margin-top: 5px;
+						width: 88px;
+						height: 8px;
+						border-radius: 4px;
+						background-color: #e6eaed;
+					}
+						.other-color{
+							width: 29px;
+							height: 8px;
+							border-radius: 4px;
+							background-color: #a0d468;
+						}				
+
+		.right{
+			display: block;
+			float: right;
+			width: 240px;
+			height: 340px;
+			margin: 11px 0;
+			background-color: #434a54;
+			border: transparent;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+			ul.playlist{
+				
+			}
+				ul.playlist li{
+					width: 100%;
+					height: 51px;
+					font-size: 18px;
+					padding: 15px;
+					box-sizing: border-box;
+					color: #ffffff;
+					opacity: .5;
+					border-bottom: 1px solid #ffffff;
+				}
+					ul.playlist li:hover{
+						cursor: pointer;
+					}
+					ul.playlist li.orange{
+						color: #e86a53;
+						opacity: 1;
+					}
+			ul.buttons{
+				display: block;
+			}
+				ul.buttons li{
+					float: left;
+					padding: 11px 20px;
+				}	
