@@ -246,6 +246,7 @@ body{
 										border: 1px solid white;
 										border-radius: 20px;
 										padding: 10px;
+										box-sizing: border-box;
 										background-color: #1d2027;
 									}
 							ul.one-text{
@@ -279,6 +280,7 @@ body{
 										border: 1px solid white;
 										border-radius: 20px;
 										padding: 10px;
+										box-sizing: border-box;
 										background-color: #1d2027;
 									}	
 							ul.two-text{
@@ -414,6 +416,7 @@ body{
 									border: transparent;
 									border-radius: 60px;
 									padding: 35px;
+									box-sizing: border-box;
 									background-color: #0088cc;
 								}
 								span.touch{
@@ -477,6 +480,7 @@ body{
 								}
 									ul.subject-message li{
 										padding: 15px 0;
+										box-sizing: border-box;
 										font-size: 22px;
 									}
 										li.subject{
@@ -518,6 +522,7 @@ body{
 									}
 										span.mail-example{
 											color: #0088cc;
+											font-size: 20px;
 										}
 											span.mail-example:hover{
 												text-decoration: underline;
@@ -590,7 +595,7 @@ body{
 								font-size: 20px;
 							}
 							span.huge{
-								font-size: 50px;
+								font-size: 48px;
 							}
 								span.okler{
 									font-size: 20px;	
