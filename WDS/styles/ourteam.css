@@ -1,0 +1,199 @@
+*{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.wrapper{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.menu{
+		width: 1260px;
+		height: 80px;
+		background-color: #000000;
+		margin: 0 auto;
+		padding: 0;
+	}
+	ul.nav{
+		width: 100%;
+		display: block;
+		width: 960px;
+		height: 80px;
+		text-align: center;
+	}
+		ul.nav li{
+			display: block;
+			float: left;
+			width: 137px;
+			height: 80px;
+		}
+			li a{
+				display: block;
+				text-decoration: none;
+				text-align: center;
+				padding-top: 33px;
+				color: #909090;
+				text-transform: uppercase;
+				font-size: 13px;
+			}
+				li a.left{
+					padding-right: 80px;
+				}
+				li a.right{
+					padding-left: 55px;
+				}
+					li a:hover{
+						color: #2980b9;
+					}
+			li span.logo{
+				display: block;
+				font-size: 35px;
+				padding-top: 15px;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;
+				color: #ffffff;
+			}
+				li span.logo:hover{
+					cursor: pointer;
+				}
+.section-three{
+	width: 1260px;
+	height: 267px;
+	margin: 0 auto;
+}
+	.text-three{
+		text-align: center;
+	}
+		span.headline-two{
+				display: block;
+				padding-top: 62px;
+				font-size: 40px;
+			}
+			span.line-two{
+				display: block;
+				width: 150px;
+				height: 1px;
+				background-color: #a5a8a9;
+				margin: 35px auto;
+			}
+			span.other{
+				display: block;
+				line-height: 30px;
+				color: #616060;
+				font-size: 16px;
+			}
+.team{
+	width: 960px;
+	height: 855px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 67px;
+}
+	.line{
+		width: 960px;
+		height: 430px;
+	}
+		.t1{
+			width: 225px;
+			height: 430px;
+			display: block;
+			float: left;
+			padding-right: 20px;
+		}
+			.card-container {
+  				cursor: pointer;
+  				height: 225px;
+  				-webkit-perspective: 600px;
+  				position: relative;
+  				width: 225px;
+			}
+			.card {
+			  	height: 100%;
+			  	position: absolute;
+			  	transform-style: preserve-3d;
+			  	transition: all .8s ease-in-out;
+			  	width: 100%;
+			}
+				.card:hover {
+				  	transform: rotateY(180deg);
+				}
+			.card .side {
+			  	backface-visibility: hidden;
+			  	height: 100%;
+			  	position: absolute;
+			  	overflow: hidden;
+			  	width: 100%;
+			}
+			.card .back {
+			  	background: #000000;
+			  	color: #ffffff;
+			  	line-height: 225px;
+			  	text-align: center;
+			  	transform: rotateY(180deg);
+			}
+		.t-last{
+			width: 225px;
+			height: 430px;
+			display: block;
+			float: left;
+		}
+			span.name{
+				font-size: 20px;
+				display: block;
+				margin: 15px 0 25px 0;
+			}
+			span.about{
+				font-size: 11px;
+				display: block;
+				margin-bottom: 50px;
+			}
+			ul.team-icons{
+				display: block;
+				margin-left: 55px;
+				margin-top: 50px;
+			}
+				ul.team-icons li{
+					float: left;
+					padding-right: 20px;
+				}
+					ul.team-icons li i{
+						font-size: 16px;
+					}
+						ul.team-icons li i:hover{
+							color: #2980b9;
+							cursor: pointer; 
+						}
+footer{
+	width: 1260px;
+	height: 60px;
+	background-color: #000000;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+	ul.social{
+		display: block;
+	}
+		ul.social li i{
+			float: left;
+			font-size: 22px;
+			padding-right: 20px;
+			color: #666666;
+			padding-top: 5px;
+		}
+			ul.social li i:hover{
+				color: #2980b9;
+				cursor: pointer;
+			}
+		.rights{
+			display: block;
+			float: right;
+			margin-bottom: 15px;
+		}
+			span.copy{
+				display: block;
+				float: right;
+				color: #666666;
+				font-size: 12px;
+			}																	

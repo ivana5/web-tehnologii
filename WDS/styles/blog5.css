@@ -1,0 +1,172 @@
+*{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.wrapper{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.menu{
+		width: 1260px;
+		height: 80px;
+		background-color: #000000;
+		margin: 0 auto;
+		padding: 0;
+	}
+	ul.nav{
+		width: 100%;
+		display: block;
+		width: 960px;
+		height: 80px;
+		text-align: center;
+	}
+		ul.nav li{
+			display: block;
+			float: left;
+			width: 137px;
+			height: 80px;
+		}
+			li a{
+				display: block;
+				text-decoration: none;
+				text-align: center;
+				padding-top: 33px;
+				color: #909090;
+				text-transform: uppercase;
+				font-size: 13px;
+			}
+				li a.left{
+					padding-right: 80px;
+				}
+				li a.right{
+					padding-left: 55px;
+				}
+					li a:hover{
+						color: #2980b9;
+					}
+			li span.logo{
+				display: block;
+				font-size: 35px;
+				padding-top: 15px;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;
+				color: #ffffff;
+			}
+				li span.logo:hover{
+					cursor: pointer;
+				}
+.section-three{
+	width: 1260px;
+	height: 1135px;
+	margin: 0 auto;
+}	
+	.text-three{
+		text-align: center;
+		margin: 0 auto;
+	}
+		span.headline-two{
+				display: block;
+				padding-top: 62px;
+				font-size: 40px;
+			}
+			span.line-two{
+				display: block;
+				width: 150px;
+				height: 1px;
+				background-color: #a5a8a9;
+				margin: 35px auto;
+			}
+			span.other{
+				display: block;
+				line-height: 30px;
+				color: #b5b5b5;
+				font-size: 16px;
+			}
+			.text-image{
+				width: 958px;
+				height: 468px;
+				margin: 60px auto; 
+			}
+				span.over-image{
+					display: block;
+					color: #616060;
+					font-size: 20px;
+					margin-bottom: 15px;
+				}
+.share{
+	margin: 70px auto;
+	width: 490px;
+	height: 20px;
+	display: block;
+}
+	ul.btns{
+		list-style-type: none;
+		display: block;
+	}
+		ul.btns li{
+			float: left;
+			padding: 0 7px;
+		}
+			ul.btns li i{
+				font-size: 15px;
+				color: #ffffff;
+			}
+			button{
+				padding: 3px 7px;
+				box-shadow: none;
+				color: #ffffff;
+			}
+				button.twit{
+					background-color: #00acee;
+				}
+				button.fb{
+					background-color: #4561b0;
+				}
+				button.google{
+					background-color: #dd4b38;
+				}
+				button.pint{
+					background-color: #c33943;
+				}
+				button.le{
+					background-color: #2c6faf;
+				}
+				button.tumb{
+					background-color: #37475d;
+				}
+footer{
+	width: 1260px;
+	height: 60px;
+	background-color: #000000;
+	padding: 15px 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+	ul.social{
+		display: block;
+	}
+		ul.social li i{
+			float: left;
+			font-size: 22px;
+			padding-right: 20px;
+			color: #666666;
+			padding-top: 5px;
+		}
+			ul.social li i:hover{
+				color: #2980b9;
+				cursor: pointer;
+			}
+		.rights{
+			display: block;
+			float: right;
+			margin-bottom: 15px;
+		}
+			span.copy{
+				display: block;
+				float: right;
+				color: #666666;
+				font-size: 12px;
+			}
