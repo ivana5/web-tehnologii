@@ -1,0 +1,12 @@
+.anime{
+	width: 400px;
+	height: 400px;
+	background: green;
+	transition: all 1s;
+}
+.anime:hover{
+	background: red;
+	/*-webkit-transform: scale(.5);*/
+	-webkit-transform: rotate(45deg) scale(.5);
+	box-shadow: 100px 100px 30px rgba(0,0,0,.5)
+}
