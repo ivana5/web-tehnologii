@@ -1,0 +1,35 @@
+.slider{
+	height: 375px;
+	width: 500px;
+	overflow: hidden;
+	position: relative;
+}
+	.slide-left{
+		display: block;
+		height: 30px;
+		width: 30px;
+		position: absolute;
+		z-index: 5;
+		background-color: red;
+		top: 173px;
+		right: 0;
+	}
+	.slide-right{
+		display: block;
+		height: 30px;
+		width: 30px;
+		position: absolute;
+		z-index: 5;
+		background-color: red;
+		top: 173px;
+		left: 0;
+	}
+	.slider-wrapper{
+		width: 1500px;
+		height: 375px;
+		transition: all 1s;
+	}
+		.slider-wrapper img{
+			display: block;
+			float: left;
+		}

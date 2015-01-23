@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>c31</title>
+		<script type="text/javascript" src="scripts/jquery-2.1.3.min.js"></script>
+		<link rel="stylesheet" href="styles/c31.css"/>
+		<script>
+		$(document).ready(function(){
+
+			var sliderPosition = 0;
+
+			$('.slide-left').on('click', function(){
+				// alert();
+				if(sliderPosition < 1000){
+					sliderPosition = sliderPosition + 500;
+					$('.slider-wrapper').css('margin-left', '-' + sliderPosition + 'px');
+					console.log(sliderPosition);
+				}	
+			});
+
+
+			$('.slide-right').on('click', function(){
+				// alert();
+				sliderPosition = sliderPosition - 500;
+				$('.slider-wrapper').css('margin-left', '-' + sliderPosition + 'px');			
+				console.log(sliderPosition);
+			});
+
+		});
+		</script>
+	</head>
+	<body>
+		<div class="slider">
+			<span class="slide-left"></span>
+			<span class="slide-right"></span>	
+			<div class="slider-wrapper">
+				<img src="image1.jpg" alt=""/>
+				<img src="image2.jpg" alt=""/>
+				<img src="image3.jpg" alt=""/>
+			</div>
+		</div>
+	</body>
+</html>
